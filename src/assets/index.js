@@ -1,7 +1,8 @@
-import github from './github.png';
-import slack from './slack.png';
-import share from './share.png';
-import zuri from './zuri.png';
-import logo from './I4G.png';
+import profile from './images/profile.jpg'
+import github from './images/github.png';
+import slack from './images/slack.png';
+import share from './images/share.png';
+import zuri from './images/zuri.png';
+import logo from './images/I4G.png';
 
-export {github, slack, share, zuri, logo};
+export {profile, github, slack, share, zuri, logo};
