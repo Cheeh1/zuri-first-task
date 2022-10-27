@@ -33,9 +33,9 @@ function App() {
     <footer>
       <hr />
       <div className='footer-items'>
-      <img src={zuri} alt="zuri-logo" />
+      <img className='footer-img' src={zuri} alt="zuri-logo" />
       <p className='footer-items-txt'>HNG Internship 9 Frontend Task</p>
-      <img src={logo} alt="IaG-logo" />
+      <img className='footer-img' src={logo} alt="IaG-logo" />
       </div>
     </footer>
     </div>
