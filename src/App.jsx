@@ -25,7 +25,7 @@ function App() {
           <p className='link-txt'>Zuri Books</p>
         </a>
 
-        <a className='link-item' id='book__python' href="https://books.zuri.team](https://books.zuri.team)/python-for-beginners?ref_id=<divineedwin>" target="_blank">
+        <a className='link-item' id='book__python' href="https://books.zuri.team/python-for-beginners?ref_id=divineedwin" target="_blank">
           <p className='link-txt'>Python Books</p>
         </a>
 
