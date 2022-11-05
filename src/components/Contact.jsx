@@ -128,8 +128,7 @@ function Contact() {
 
         <section>
           <button 
-            type='submit' 
-            // className='form-btn'
+            type='submit'
             className={Object.keys(formErrors).length === 0 && isSubmit ? 'form-btn-1' : 'form-btn'}
             id='submit_btn'
           >
