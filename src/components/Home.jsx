@@ -1,6 +1,7 @@
 import React from 'react'
-import { profile, github, slack, share, zuri, logo } from '../assets'
+import { profile, github, slack, share } from '../assets'
 import { Link } from 'react-router-dom'
+import Footer from './Footer'
 
 function Home() {
     return (
@@ -75,7 +76,11 @@ function Home() {
             <p className="link-txt">Design Books</p>
           </a>
 
-          <Link to="/contact" className="link-item" id="contact" href='/contact'>
+          <Link 
+            to="/contact" 
+            className="link-item" 
+            id="contact"
+          >
             <p className="link-txt">Contact Me</p>
           </Link>
 
@@ -97,14 +102,7 @@ function Home() {
           </div>
         </section>
 
-        <footer>
-          <hr />
-          <div className="footer-items">
-            <img className="footer-img" src={zuri} alt="zuri-logo" />
-            <p className="footer-items-txt">HNG Internship 9 Frontend Task</p>
-            <img className="footer-img" src={logo} alt="IaG-logo" />
-          </div>
-        </footer>
+        < Footer />
       </div>
     );
 }
