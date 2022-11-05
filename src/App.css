@@ -310,7 +310,7 @@ hr {
     flex-direction: column;
   }
 
-  .email-field, .form-btn {
+  .email-field, .form-btn, .form-btn-1 {
     width: 348px;
     height: 44px;
   }
