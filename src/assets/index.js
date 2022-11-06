@@ -4,5 +4,6 @@ import slack from './images/slack.png';
 import share from './images/share.png';
 import zuri from './images/zuri.png';
 import logo from './images/I4G.png';
+import arrow from './images/arrow-left.png';
 
-export {profile, github, slack, share, zuri, logo};
+export {profile, github, slack, share, zuri, logo, arrow};

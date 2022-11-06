@@ -21,6 +21,16 @@ body {
   src: url(./assets/font/Inter/Inter-regular.ttf);
 }
 
+@font-face {
+  font-family: Inter;
+  src: url(./assets/font/Inter/Inter-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: Inter;
+  src: url(./assets/font/Inter/Inter-medium.ttf);
+}
+
 .container {
   margin: auto;
   padding-top: 50px;
@@ -259,6 +269,76 @@ hr {
   color: #F83F23;
 }
 
+/* Error Component */
+.error-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 200px 100px;
+}
+
+.error-flex-col {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.error-page-txt {
+  font-size: 1.6rem;
+  color: #1570EF;
+  font-weight: 400;
+}
+
+.error-header {
+  font-size: 6.0rem;
+  color:  #101828;
+  letter-spacing: -0.02em;
+  font-weight: 600;
+}
+
+.error-flex-row {
+  display: flex;
+  gap: 20px;
+}
+
+.error-btn-flex {
+  display: flex;
+  gap: 10px;
+  background-color: #FFFFFF;
+  border: 1px solid #D0D5DD;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 10px;
+  cursor: pointer;
+}
+
+.error-btn-txt {
+  color: #344054;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.error-btn-2 {
+  background-color: #1570EF;
+  border: 1px solid #1570EF;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1.4rem;
+  padding: 8px 10px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+/* error message */
+.error-txt {
+  color: #475467;
+  font-size: 2.0rem;
+  font-weight: 400;
+}
+
 /* Responsiveness for Mobile View*/
 @media screen and (max-width: 750px) {
   .container {
@@ -324,6 +404,21 @@ hr {
 
   .check-box-label {
     width: 300px;
+  }
+
+  /* error component */
+  .error-flex {
+    margin: 40px 20px;
+  }
+
+  .error-flex-row {
+    flex-direction: column;
+  }
+
+  .error-btn-flex, .error-btn-2 {
+    width: 340px;
+    height: 48px;
+    margin-left: -10px;
   }
 }
 
